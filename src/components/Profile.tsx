@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import { CgWebsite } from 'react-icons/cg'
 import { ImLocation2 } from 'react-icons/im'
 import { IoMdMail } from 'react-icons/io'
 
@@ -29,6 +30,14 @@ export const Profile = () => {
         <div className='flex mt-2 items-center'>
           <IoMdMail size={22} />
           <p className='ml-1 text-lg'>hpfull.yamucha@ymail.ne.jp</p>
+        </div>
+        <div className='flex mt-2 items-center'>
+          <CgWebsite size={22} />
+          <Link href='https://blog.hpfull.jp/'>
+            <a target='_blank' className='ml-1 text-lg text-blue-600'>
+              https://blog.hpfull.jp/
+            </a>
+          </Link>
         </div>
       </div>
     </div>
