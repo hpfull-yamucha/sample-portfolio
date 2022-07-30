@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import { CgWebsite } from 'react-icons/cg'
 import { ImLocation2 } from 'react-icons/im'
