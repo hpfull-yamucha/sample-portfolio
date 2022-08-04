@@ -9,20 +9,42 @@ export const Works = () => {
       </div>
       <div className='flex'>
         <div className='text-center'>
-          <Image
-            src='/undraw_Experience_design_re_ca7l.png'
-            width={256}
-            height={164}
-            alt='Avatar'
-          />
-          <p className='text-gray-600 font-sans'>Reminder App</p>
+          <div className='overflow-hidden'>
+            <Image
+              style={{ transition: 'transform .6s ease' }}
+              className='hover:transform hover:scale-110'
+              src='/undraw_Experience_design_re_ca7l.png'
+              width={256}
+              height={164}
+              alt='Avatar'
+            />
+          </div>
+          <p className='text-gray-600 font-sans'>React Chat App</p>
         </div>
         <div className='text-center'>
-          <Image src='/undraw_Programming_re_kg9v.png' width={256} height={164} alt='Avatar' />
+          <div className='overflow-hidden'>
+            <Image
+              style={{ transition: 'transform .6s ease' }}
+              className='hover:transform hover:scale-110'
+              src='/undraw_Programming_re_kg9v.png'
+              width={256}
+              height={164}
+              alt='Avatar'
+            />
+          </div>
           <p className='text-gray-600 font-sans'>Programming Support App</p>
         </div>
         <div className='text-center'>
-          <Image src='/undraw_Group_video_re_btu7.png' width={256} height={164} alt='Avatar' />
+          <div className='overflow-hidden'>
+            <Image
+              style={{ transition: 'transform .6s ease' }}
+              className='hover:transform hover:scale-110'
+              src='/undraw_Group_video_re_btu7.png'
+              width={256}
+              height={164}
+              alt='Avatar'
+            />
+          </div>
           <p className='text-gray-600 font-sans'>Video Chat App</p>
         </div>
       </div>
