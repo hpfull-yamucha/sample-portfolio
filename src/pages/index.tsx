@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Index Page</title>
+        <title>Top Page</title>
       </Head>
       <main>
         <div className='flex flex-col justify-center items-center'>
