@@ -70,6 +70,28 @@ export const Works = () => {
           </p>
         </div>
       </div>
+      <div className='w-1/3'>
+        <div className='text-center p-3'>
+          <Link href='https://github.com/hpfull-yamucha/wordpress-local'>
+            <a target='_blank'>
+              <div className='overflow-hidden'>
+                <Image
+                  style={{ transition: 'transform .6s ease' }}
+                  className='hover:transform hover:scale-110'
+                  src='/undraw_wordpress_utxt.png'
+                  width={256}
+                  height={164}
+                  alt='Avatar'
+                />
+              </div>
+            </a>
+          </Link>
+          <p className='text-gray-600 font-sans mb-2'>WordPressのローカル開発環境構築</p>
+          <p className='text-gray-600 font-sans text-left'>
+            WordPressのローカル開発環境を構築するためのDockerコンテナを作成しました。WordPressのテーマやプラグインの開発に役立ちます。
+          </p>
+        </div>
+      </div>
     </div>
   )
 }
