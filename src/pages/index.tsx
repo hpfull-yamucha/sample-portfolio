@@ -6,7 +6,7 @@ import { Works } from '@/components/Works'
 
 const Home: NextPage = () => {
   return (
-    <div>
+    <div className='w-screen'>
       <Head>
         <title>Top Page</title>
       </Head>

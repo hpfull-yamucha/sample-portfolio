@@ -50,13 +50,13 @@ export const Works = () => {
           </p>
         </div>
         <div className='text-center w-full p-3'>
-          <Link href='https://github.com/hpfull-yamucha/sample-portfolio'>
+          <Link href='https://github.com/hpfull-yamucha/slack-gas-kintai'>
             <a target='_blank'>
               <div className='overflow-hidden'>
                 <Image
                   style={{ transition: 'transform .6s ease' }}
                   className='hover:transform hover:scale-110'
-                  src='/undraw_Group_video_re_btu7.png'
+                  src='/undraw_Online_test_re_kyfx.png'
                   width={256}
                   height={164}
                   alt='Avatar'
@@ -64,9 +64,9 @@ export const Works = () => {
               </div>
             </a>
           </Link>
-          <p className='text-gray-600 font-sans mb-2'>portfolio site</p>
+          <p className='text-gray-600 font-sans mb-2'>Slack連携勤怠ツール</p>
           <p className='text-gray-600 font-sans text-left'>
-            本サイトはNext.js、Tailwind CSS、TypeScriptで構築されています。
+            SlackとGoogleスプレッドシートを連携した勤怠ツールです。勤怠の打刻や勤怠の確認ができます。
           </p>
         </div>
       </div>
