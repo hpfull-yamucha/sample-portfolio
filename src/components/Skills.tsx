@@ -35,7 +35,7 @@ export const Skills = () => {
             <p className='text-lg text-gray-600'>Slack API</p>
             <p className='text-lg text-gray-600'>WordPress</p>
             <p className='text-lg text-gray-600'>VScode</p>
-            <p className='text-lg text-gray-600'>Google Sheets</p>
+            <p className='text-lg text-gray-600'>GitHub</p>
           </div>
         </div>
       </div>
