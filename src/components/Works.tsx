@@ -24,7 +24,7 @@ export const Works = () => {
               </div>
             </a>
           </Link>
-          <p className='text-gray-600 font-sans mb-2'>React Chat App</p>
+          <p className='text-gray-700 font-sans mb-2 font-semibold'>React Chat App</p>
           <p className='text-gray-600 font-sans text-left'>
             React,TypeScriptとReduxで構築された同期的なチャットアプリケーションです。チャットアプリの基本的な機能に加え、メッセージへのリアクション機能があります。
           </p>
@@ -44,7 +44,7 @@ export const Works = () => {
               </div>
             </a>
           </Link>
-          <p className='text-gray-600 font-sans mb-2'>JAMstack Blog</p>
+          <p className='text-gray-700 font-sans mb-2 font-semibold'>JAMstack Blog</p>
           <p className='text-gray-600 font-sans text-left'>
             Next.jsとヘッドレスCMSであるmicroCMSで構築されたブログサイトです。検索機能やページネーション機能、カテゴリ機能を自前で実装しています。
           </p>
@@ -64,7 +64,7 @@ export const Works = () => {
               </div>
             </a>
           </Link>
-          <p className='text-gray-600 font-sans mb-2'>Slack連携勤怠ツール</p>
+          <p className='text-gray-700 font-sans mb-2 font-semibold'>Slack連携勤怠ツール</p>
           <p className='text-gray-600 font-sans text-left'>
             SlackとGoogleスプレッドシートを連携した勤怠ツールです。勤怠の打刻や勤怠の確認ができます。
           </p>
@@ -86,7 +86,9 @@ export const Works = () => {
               </div>
             </a>
           </Link>
-          <p className='text-gray-600 font-sans mb-2'>WordPressのローカル開発環境構築</p>
+          <p className='text-gray-700 font-sans mb-2 font-semibold'>
+            WordPressのローカル開発環境構築
+          </p>
           <p className='text-gray-600 font-sans text-left'>
             WordPressのローカル開発環境を構築するためのDockerコンテナを作成しました。WordPressのテーマやプラグインの開発に役立ちます。
           </p>
