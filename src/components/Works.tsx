@@ -7,8 +7,8 @@ export const Works = () => {
       <div className='border-black border-l-2 pl-6 flex items-end h-16 mb-8'>
         <p className='text-3xl font-bold'>Works</p>
       </div>
-      <div className='flex'>
-        <div className='text-center'>
+      <div className='flex justify-between'>
+        <div className='text-center w-full p-3'>
           <div className='overflow-hidden'>
             <Image
               style={{ transition: 'transform .6s ease' }}
@@ -19,9 +19,12 @@ export const Works = () => {
               alt='Avatar'
             />
           </div>
-          <p className='text-gray-600 font-sans'>React Chat App</p>
+          <p className='text-gray-600 font-sans mb-2'>React Chat App</p>
+          <p className='text-gray-600 font-sans text-left'>
+            React,TypeScriptとReduxで構築された同期的なチャットアプリケーションです。チャットアプリの基本的な機能に加え、メッセージへのリアクション機能があります。
+          </p>
         </div>
-        <div className='text-center'>
+        <div className='text-center w-full p-3'>
           <div className='overflow-hidden'>
             <Image
               style={{ transition: 'transform .6s ease' }}
@@ -32,9 +35,12 @@ export const Works = () => {
               alt='Avatar'
             />
           </div>
-          <p className='text-gray-600 font-sans'>Programming Support App</p>
+          <p className='text-gray-600 font-sans mb-2'>JAMstack Blog</p>
+          <p className='text-gray-600 font-sans text-left'>
+            Next.jsとヘッドレスCMSであるmicroCMSで構築されたブログサイトです。検索機能やページネーション機能、カテゴリ機能を自前で実装しています。
+          </p>
         </div>
-        <div className='text-center'>
+        <div className='text-center w-full p-3'>
           <div className='overflow-hidden'>
             <Image
               style={{ transition: 'transform .6s ease' }}
@@ -45,7 +51,10 @@ export const Works = () => {
               alt='Avatar'
             />
           </div>
-          <p className='text-gray-600 font-sans'>Video Chat App</p>
+          <p className='text-gray-600 font-sans mb-2'>portfolio site</p>
+          <p className='text-gray-600 font-sans text-left'>
+            本サイトはNext.js、Tailwind CSS、TypeScriptで構築されています。
+          </p>
         </div>
       </div>
     </div>
