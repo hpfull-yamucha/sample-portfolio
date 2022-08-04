@@ -18,11 +18,11 @@ export const Profile = () => {
         />
       </div>
       <div className='text-left'>
-        <h1 className='text-2xl font-bold'>Yamucha Toriyama</h1>
+        <h1 className='text-2xl font-bold'>Kaito Aotsuki(青月 海虎)</h1>
         <p className='text-xl font-medium mb-3'>Web Engineer</p>
         <p className='text-lg text-gray-600'>
-          I am a student web engineer, majoring in commerce at university. My specialties are meat
-          and potatoes and Dragon Ball, a manga by Yamucha.
+          I am a web engineer. My specialty is front-end development and coding. This portfolio site
+          lists my skills, my background, and my productions.
         </p>
         <div className='flex mt-2 items-center'>
           <ImLocation2 size={22} />
@@ -30,7 +30,7 @@ export const Profile = () => {
         </div>
         <div className='flex mt-2 items-center'>
           <IoMdMail size={22} />
-          <p className='ml-1 text-lg'>hpfull.yamucha@ymail.ne.jp</p>
+          <p className='ml-1 text-lg'>hpfull.k.aotsuki@gmail.com</p>
         </div>
         <div className='flex mt-2 items-center'>
           <CgWebsite size={22} />
