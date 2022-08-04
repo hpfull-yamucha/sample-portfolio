@@ -7,7 +7,7 @@ import { IoMdMail } from 'react-icons/io'
 
 export const Profile = () => {
   return (
-    <div className='flex flex-col bg-gray-100 rounded-sm w-[420px] justify-center items-center text-center py-10 px-10'>
+    <div className='flex flex-col md:bg-gray-100 rounded-sm w-[420px] justify-center items-center text-center py-10 md:px-10'>
       <div className='rounded-full border-white border-8 mb-8'>
         <Image
           className='rounded-full'
@@ -17,7 +17,7 @@ export const Profile = () => {
           alt='Avatar'
         />
       </div>
-      <div className='text-left'>
+      <div className='md:text-left md:w-full w-3/4'>
         <h1 className='text-2xl font-bold'>Kaito Aotsuki(青月 海虎)</h1>
         <p className='text-xl font-medium mb-3'>Web Engineer</p>
         <p className='text-lg text-gray-600'>

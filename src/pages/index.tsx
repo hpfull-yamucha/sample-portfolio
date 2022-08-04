@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <main>
         <div className='flex flex-col justify-center items-center'>
           <div className='flex justify-center items-center flex-col'>
-            <div className='flex'>
+            <div className='flex flex-col md:flex-row justify-center items-center'>
               <Profile />
               <div className='flex flex-col justify-center items-center pt-20'>
                 <div className=''>
@@ -23,7 +23,7 @@ const Home: NextPage = () => {
               </div>
             </div>
           </div>
-          <div className='flex justify-left w-[920px]'>
+          <div className='flex justify-left md:justify-center md:w-[920px]'>
             <Works />
           </div>
         </div>
